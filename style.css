@@ -1,314 +1,298 @@
 * {
-    margin: 0;
-    padding: 0;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  outline: none;
 }
 
 body {
-    background-color: #020A18;
+  background-color: #020A18;
 }
 
 .header {
-    background-color: #0a121f;
-}
-
-.container {
-    margin: 0 auto;
-    width: 1146px;
+  background-color: #0a121f;
 }
 
 .nav {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .header-link {
-    padding: 40px;
-    display: block;
-    font-family: 'Open Sans', sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 22px;
-    color: #fff;
-    text-decoration: none;
-
+  padding: 40px;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .header-link:hover {
-    background-color: #3A68B8;
-    border-radius: 5px;
+  background-color: #3A68B8;
+  border-radius: 5px;
+}
+
+.footer {
+  height: 250px;
+  background-color: #0a121f;
+}
+
+.info-heading {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #fff;
+  text-transform: uppercase;
+  padding-top: 48px;
+}
+
+.info-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  padding-left: 10px;
+}
+
+.mail {
+  margin-top: 33px;
+}
+
+.phone {
+  margin-top: 25px;
+}
+
+.adress {
+  margin-top: 26px;
+}
+
+.about-dsc {
+  font-family: "Roboto";
+  font-style: italic;
+  font-weight: 100;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  opacity: 0.6;
+  padding-top: 33px;
+  width: 261px;
+}
+
+.adress-txt {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #fff;
+  padding-top: 33px;
+}
+
+.footer-link {
+  margin-top: 24px;
+}
+
+.input {
+  margin-top: 25px;
+}
+
+.button {
+  width: 80px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1146px;
 }
 
 .main {
-    margin-top: 160px;
+  margin-top: 160px;
 }
 
-
-.flex-box {
-    display: flex;
-    justify-content: space-between;
+.flex, .footer-flex, .flex-box {
+  display: flex;
+  justify-content: space-between;
 }
 
 .next {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    font-family: 'Open Sans', sans-serif;
-    text-transform: uppercase;
-    color: #3A68B8;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  color: #3A68B8;
 }
 
 .main-headding {
-    font-weight: 800;
-    font-size: 55px;
-    line-height: 130%;
-    color: #fff;
-    font-family: 'Open Sans', sans-serif;
-    width: 604px;
+  font-weight: 800;
+  font-size: 55px;
+  line-height: 130%;
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  width: 604px;
 }
 
-
 .main-dsc {
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 160%;
-    color: #ccc;
-    margin-top: 40px;
-    width: 558px;
-    margin-bottom: 50px;
-    font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 160%;
+  color: #fff;
+  margin-top: 40px;
+  width: 558px;
+  margin-bottom: 50px;
+  font-family: "Open Sans", sans-serif;
 }
 
 .get {
-    background: #3A68B8;
-    border-radius: 5px;
-    margin-right: 20px;
-
+  background: #3A68B8;
+  border-radius: 5px;
+  margin-right: 20px;
 }
 
 .button-txt-flex {
-    height: 100%;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    padding: 0 30px;
-
+  height: 100%;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
 }
 
 .watch {
-    background: #3A68B8;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-
+  background: #3A68B8;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
 }
 
 .watch-txt {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    margin-left: 10px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-left: 10px;
 }
 
 .button-flex {
-    display: flex;
+  display: flex;
 }
 
-
 .button-txt {
-    padding: 15px 30px;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 27px;
-    font-family: 'Open Sans', sans-serif;
-    color: #fff;
-    display: flex;
-    align-items: center;
-
+  padding: 15px 30px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  display: flex;
+  align-items: center;
 }
 
 .get:hover,
 .watch:hover {
-    outline: 4px solid #fff;
+  outline: 4px solid #fff;
 }
-
 
 .footer-main {
-    margin-top: 200px;
-}
-
-.footer-flex {
-    display: flex;
-    justify-content: space-between;
+  margin-top: 200px;
 }
 
 .banner {
-    margin-top: 160px;
-    margin-bottom: 265px;
+  margin-top: 160px;
+  margin-bottom: 265px;
 }
 
 .banner-txt {
-    width: 485px;
+  width: 485px;
 }
 
 .banner-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #fff;
-    margin-top: 120px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  margin-top: 120px;
 }
 
 .banner-dsc {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 26px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+  opacity: 0.7;
+  margin-top: 30px;
 }
 
 .bunner-button {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .adv-item {
-    background: #132035;
-    border-radius: 10px;
-    width: 362px;
-    padding: 30px;
-    text-align: center;
-    box-sizing: border-box;
+  background: #132035;
+  border-radius: 10px;
+  width: 362px;
+  padding: 30px;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .adv-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 31px;
-    color: #FFFFFF;
-    opacity: 0.7;
-    margin: 30px 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  color: #fff;
+  opacity: 0.7;
+  margin: 30px 0;
 }
 
 .down {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .adv-left {
-    background: #132035;
-    border-radius: 10px;
-    width: 754px;
-    padding: 30px;
-    text-align: center;
-    box-sizing: border-box;
-    margin-top: 30px;
+  background: #132035;
+  border-radius: 10px;
+  width: 754px;
+  padding: 30px;
+  text-align: center;
+  box-sizing: border-box;
+  margin-top: 30px;
 }
 
 .advantages {
-    margin-bottom: 243px;
+  margin-bottom: 243px;
 }
 
 .solutions {
-    margin-bottom: 221px;
+  margin-bottom: 221px;
 }
 
 .solutions-txt {
-    width: 548px;
+  width: 548px;
 }
 
 .solutions-dsc {
-    width: 460px;
+  width: 460px;
 }
 
 .solutions-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 52px;
-    color: #fff;
-}
-
-.footer {
-    height: 250px;
-    background-color: #0a121f;
-}
-
-
-
-.info-heading {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    text-transform: uppercase;
-    padding-top: 48px;
-}
-
-.info-txt {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding-left: 10px;
-}
-
-.mail {
-    margin-top: 33px;
-}
-
-.phone {
-    margin-top: 25px;
-}
-
-.adress {
-    margin-top: 26px;
-}
-
-.about-dsc {
-    font-family: 'Roboto';
-    font-style: italic;
-    font-weight: 100;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    opacity: 0.6;
-    padding-top: 33px;
-    width: 261px;
-}
-
-.adress-txt {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    color: #FFFFFF;
-    padding-top: 33px;
-}
-
-.footer-link {
-    margin-top: 24px;
-}
-
-.input {
-    margin-top: 25px;
-}
-
-.button {
-    width: 80px;
-    font-family: 'Open Sans', sans-serif;
-}
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}/*# sourceMappingURL=style.css.map */
