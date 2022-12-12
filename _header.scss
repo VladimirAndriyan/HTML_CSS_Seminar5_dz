@@ -5,10 +5,11 @@
 .nav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .header-link {
-    padding: 40px;
+    padding: 3%;
     display: block;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
